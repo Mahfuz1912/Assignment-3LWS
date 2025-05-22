@@ -1,5 +1,5 @@
 // src/components/Product.jsx
-import { useShop } from "../context/ShopContext";
+import  {useShop}  from "../context/useShop";
 
 const Product = ({ product }) => {
   const { addToCart, removeFromCart } = useShop();

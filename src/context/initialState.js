@@ -1,0 +1,128 @@
+import Img1 from "/public/assets/image 1.png";
+import Img10_1 from "/public/assets/image 10-1.png";
+import Img10 from "/public/assets/image 10.png";
+import Img7 from "/public/assets/image 7.png";
+import Img8_1 from "/public/assets/image 8-1.png";
+import Img8_2 from "/public/assets/image 8-2.png";
+import Img9_1 from "/public/assets/image 9-1.png";
+import Img9_2 from "/public/assets/image 9-2.png";
+import Img9 from "/public/assets/image 9.png";
+
+const initialState = {
+  products: [
+    {
+      id: 1,
+      name: "Gradient Graphic T-shirt",
+      price: 145,
+      image: Img8_2,
+      stock: 212,
+      rating: 4,
+      discount: 0,
+      inCart: true,
+      quantity: 1,
+      size: "Large",
+      color: "White",
+    },
+    {
+      id: 2,
+      name: "Polo with Tipping Details",
+      price: 180,
+      image: Img9,
+      stock: 320,
+      rating: 1,
+      discount: 0,
+      inCart: false,
+      quantity: 0,
+    },
+    {
+      id: 3,
+      name: "Black Striped T-shirt",
+      price: 120,
+      originalPrice: 160,
+      image: Img10_1,
+      stock: 420,
+      rating: 3,
+      discount: 25,
+      inCart: false,
+      quantity: 0,
+    },
+    {
+      id: 4,
+      name: "Skinny Fit Jeans",
+      price: 240,
+      originalPrice: 260,
+      image: Img8_1,
+      stock: 20,
+      rating: 4,
+      discount: 8,
+      inCart: true,
+      quantity: 1,
+      size: "Large",
+      color: "Blue",
+    },
+    {
+      id: 5,
+      name: "Checkered Shirt",
+      price: 180,
+      image: Img7,
+      stock: 20,
+      rating: 4,
+      discount: 0,
+      inCart: true,
+      quantity: 1,
+      size: "Medium",
+      color: "Red",
+    },
+    {
+      id: 6,
+      name: "Sleeve Striped T-shirt",
+      price: 130,
+      originalPrice: 160,
+      image: Img10,
+      stock: 20,
+      rating: 4,
+      discount: 19,
+      inCart: false,
+      quantity: 0,
+    },
+    {
+      id: 7,
+      name: "Vertical Striped Shirt",
+      price: 212,
+      originalPrice: 232,
+      image: Img9_1,
+      stock: 20,
+      rating: 4,
+      discount: 9,
+      inCart: false,
+      quantity: 0,
+    },
+    {
+      id: 8,
+      name: "Courage Graphic T-shirt",
+      price: 145,
+      image: Img1,
+      stock: 20,
+      rating: 4,
+      discount: 0,
+      inCart: false,
+      quantity: 0,
+    },
+    {
+      id: 9,
+      name: "Loose Fit Bermuda Shorts",
+      price: 80,
+      image: Img9_2,
+      stock: 10,
+      rating: 4.5,
+      discount: 0,
+      inCart: false,
+      quantity: 0,
+    },
+  ],
+  sortBy: "popular",
+  searchQuery: "",
+  cart: [1, 4, 5],
+};
+
+export default initialState;

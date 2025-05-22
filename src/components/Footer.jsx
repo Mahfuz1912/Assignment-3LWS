@@ -1,5 +1,3 @@
-// src/components/Footer.jsx
-
 const Footer = () => {
   return (
     <footer className="bg-white py-12 px-4 md:px-8">

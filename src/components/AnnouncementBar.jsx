@@ -1,5 +1,3 @@
-// src/components/AnnouncementBar.jsx
-
 const AnnouncementBar = () => {
   return (
     <div className="bg-black text-white py-2 px-4 text-center text-sm relative">

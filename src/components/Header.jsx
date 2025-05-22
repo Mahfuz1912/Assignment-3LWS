@@ -1,5 +1,4 @@
-// src/components/Header.jsx
-import { useShop } from "../context/ShopContext";
+import { useShop } from "../context/useShop";
 
 const Header = () => {
   const { setSearchQuery } = useShop();

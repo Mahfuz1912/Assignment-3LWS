@@ -1,5 +1,4 @@
-// src/components/ProductGrid.jsx
-import { useShop } from "../context/ShopContext";
+import { useShop } from "../context/useShop";
 import Product from "./Product";
 
 const ProductGrid = () => {

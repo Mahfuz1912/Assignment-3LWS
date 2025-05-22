@@ -1,5 +1,3 @@
-// src/components/Newsletter.jsx
-
 const Newsletter = () => {
   return (
     <section className="bg-black text-white py-12 px-4 md:px-8 mt-12">

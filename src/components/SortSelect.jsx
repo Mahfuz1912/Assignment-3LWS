@@ -1,5 +1,4 @@
-// src/components/SortSelect.jsx
-import { useShop } from "../context/ShopContext";
+import { useShop } from "../context/useShop";
 
 const SortSelect = () => {
   const { sortBy, setSortBy } = useShop();

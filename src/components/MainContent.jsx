@@ -1,4 +1,3 @@
-// src/components/MainContent.jsx
 import Cart from "./Cart";
 import ProductGrid from "./ProductGrid";
 import SortSelect from "./SortSelect";

@@ -1,5 +1,5 @@
-// src/components/CartItem.jsx
-import { useShop } from "../context/ShopContext";
+import React from "react";
+import { useShop } from "../context/useShop";
 
 const CartItem = ({ product }) => {
   const { removeFromCart, increaseQuantity, decreaseQuantity } = useShop();
@@ -30,9 +30,10 @@ const CartItem = ({ product }) => {
           <div className="flex items-center space-x-2">
             <button
               onClick={() => decreaseQuantity(product.id)}
+              
               className="w-6 h-6 bg-gray-100 rounded flex items-center justify-center"
             >
-              −
+              -
             </button>
             <span className="text-sm">{product.quantity}</span>
             <button

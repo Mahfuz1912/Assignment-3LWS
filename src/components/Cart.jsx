@@ -1,5 +1,4 @@
-// src/components/Cart.jsx
-import { useShop } from "../context/ShopContext";
+import { useShop } from "../context/useShop";
 import CartItem from "./CartItem";
 
 const Cart = () => {

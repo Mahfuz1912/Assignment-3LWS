@@ -1,10 +1,8 @@
-// src/App.js
-import React from 'react';
-import Header from './components/Header';
-import AnnouncementBar from './components/AnnouncementBar';
-import MainContent from './components/MainContent';
-import Newsletter from './components/Newsletter';
-import Footer from './components/Footer';
+import AnnouncementBar from "./components/AnnouncementBar";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
