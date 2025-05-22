@@ -1,6 +1,7 @@
 import { useShop } from "../context/useShop";
 import CartItem from "./CartItem";
 
+
 const Cart = () => {
   const { cartProducts, orderSummary } = useShop();
 
@@ -48,7 +49,7 @@ const Cart = () => {
                   <input
                     type="text"
                     placeholder="Add promo code"
-                    className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm"
+                    className="w-full border border-gray-300 rounded-md py-2 px-9 text-sm"
                   />
                   <span className="absolute left-3 top-2.5">
                     <svg

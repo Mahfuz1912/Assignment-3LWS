@@ -11,7 +11,14 @@ export const getFilteredProducts = (products, sortBy, searchQuery) => {
     case "popular":
       return filtered.sort((a, b) => b.rating - a.rating);
     case "newest":
-      return filtered.sort((a, b) => b.id - a.id);
+      return filtered.sort((a, b) => {
+        const parseDate = (dateStr) => {
+          const [day, month, yearShort] = dateStr.split("-").map(Number);
+          const year = yearShort + 2000;
+          return new Date(year, month - 1, day).getTime();
+        };
+        return parseDate(b.date) - parseDate(a.date); // Newest first
+      });
     case "price-low":
       return filtered.sort((a, b) => a.price - b.price);
     case "price-high":

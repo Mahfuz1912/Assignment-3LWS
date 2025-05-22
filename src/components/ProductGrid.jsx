@@ -6,8 +6,10 @@ const ProductGrid = () => {
 
   if (filteredProducts.length === 0) {
     return (
-      <div className="text-center py-12">
-        <p className="text-xl">No products found</p>
+      <div className="text-center py-12 bg-cyan-300">
+        <p className="text-6xl font-bold text-red-500">No Products Found</p>
+        <br />
+        <p className="text-3xl font-semibold text-purple-400">Search Correct Title Name</p>
       </div>
     );
   }

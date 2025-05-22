@@ -22,6 +22,7 @@ const initialState = {
       quantity: 1,
       size: "Large",
       color: "White",
+      date: "10-2-25", // dd-mm-yy
     },
     {
       id: 2,
@@ -33,6 +34,9 @@ const initialState = {
       discount: 0,
       inCart: false,
       quantity: 0,
+      size: "XL",
+      color: "Merun",
+      date: "20-2-25",
     },
     {
       id: 3,
@@ -45,6 +49,9 @@ const initialState = {
       discount: 25,
       inCart: false,
       quantity: 0,
+      size: "Large",
+      color: "Orange-Black",
+      date: "06-2-25",
     },
     {
       id: 4,
@@ -59,6 +66,7 @@ const initialState = {
       quantity: 1,
       size: "Large",
       color: "Blue",
+      date: "10-12-24",
     },
     {
       id: 5,
@@ -71,7 +79,8 @@ const initialState = {
       inCart: true,
       quantity: 1,
       size: "Medium",
-      color: "Red",
+      color: "Sky-Blue",
+      date: "10-3-25",
     },
     {
       id: 6,
@@ -84,6 +93,9 @@ const initialState = {
       discount: 19,
       inCart: false,
       quantity: 0,
+      size: "M",
+      color: "White-Black",
+      date: "15-2-25",
     },
     {
       id: 7,
@@ -96,6 +108,9 @@ const initialState = {
       discount: 9,
       inCart: false,
       quantity: 0,
+      size: "Large",
+      color: "Mixed",
+      date: "12-2-25",
     },
     {
       id: 8,
@@ -107,6 +122,9 @@ const initialState = {
       discount: 0,
       inCart: false,
       quantity: 0,
+      size: "XL",
+      color: "Gray",
+      date: "10-2-25",
     },
     {
       id: 9,
@@ -114,10 +132,13 @@ const initialState = {
       price: 80,
       image: Img9_2,
       stock: 10,
-      rating: 4.5,
+      rating: 5,
       discount: 0,
       inCart: false,
       quantity: 0,
+      size: "Medium",
+      color: "White-Blue",
+      date: "10-1-25",
     },
   ],
   sortBy: "popular",
